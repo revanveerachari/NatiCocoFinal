@@ -1,0 +1,240 @@
+import A449c8d312e597cf49a1bfbae74ded from "./assets/A449c8d312e597cf49a1bfbae74ded";
+import Component from "./Component";
+import T from "./T";
+import Rectangle from "./Rectangle";
+import Rectangle1 from "./Rectangle1";
+import TTT from "./TTT";
+
+export default function IPhone13Mini({ className = "" }: IPhone13MiniProps) {
+  return (
+    <div className={`z-0 flex w-full items-start ${className}`}>
+      <div className="relative flex h-full w-full flex-shrink-0 overflow-clip bg-neutral-100 pl-96 pt-[812px] leading-[normal] tracking-[0px]" >
+        <div
+          className={`before:bg-_gel relative inset-x-0 top-0 z-[1] h-[762px] max-h-full max-w-full pb-px before:absolute before:inset-0 before:z-[-1] before:bg-no-repeat before:opacity-30 before:[background-position:-175.71px_-3.01px] before:[background-size:154%_100%] before:[content:''] before:[transform:rotate(90deg)]`}
+        >
+          <div className="flex h-20 flex-shrink-0 flex-col items-center self-stretch" >
+            <div className="relative mt-[-23px] flex h-[106px] flex-shrink-0 flex-wrap items-center gap-x-36 gap-y-3.5 rounded-[30px] bg-white pb-[22px] pl-5 pr-20 pt-11 min-[365px]:flex-nowrap" >
+              <A449c8d312e597cf49a1bfbae74ded className="absolute bottom-1.5 right-2 h-16 w-16 flex-shrink-0" />
+              <div className="flex items-center justify-center gap-x-0">
+                <div className="flex flex-col items-center pt-px">
+                  <div className="bg-place-marker h-[26px] max-h-full w-[26px] max-w-full flex-shrink-0 bg-no-repeat [background-position:0px_0px] [background-size:100%_100%]" />
+                </div>
+                <div className="font-golos-text text-sm leading-[normal]">
+                  Location
+                </div>
+              </div>
+              <div className="bg-shopping-basket h-10 max-h-full w-8 max-w-full flex-shrink-0 bg-no-repeat [background-position:0px_0px] [background-size:100%_100%]" />
+            </div>
+          </div>
+          <div className="flex flex-col items-start justify-end gap-y-[7px] bg-transparent pl-[17px] pt-9" >
+            <div className="flex items-center self-stretch px-1 [max-width:358px]" >
+              <div className="font-golos-text flex-grow text-[10px] font-medium leading-[normal]" >
+                SHOP BY CATEGORY
+              </div>
+            </div>
+            <div className="flex items-center justify-center self-stretch">
+              <div className="flex items-center pr-[17px]">
+                <div className="font-rem flex flex-col items-start gap-y-[13px] text-xs leading-[normal] text-white" >
+                  <div className="flex flex-wrap items-center justify-center gap-x-[17px] gap-y-[17px] min-[365px]:flex-nowrap" >
+                    <Component
+                      container1="px-6 pb-1.5 pt-1 justify-center rounded-[20px] [background-image:linear-gradient(180deg,_#fffefd,_#f7a02f)]"
+                      container2="max-w-full max-h-full bg-[url(/assets/nati-coco-logo.png)] w-[52px] h-[52px] [background-size:173%_173%] [background-position:-19px_-19px]"
+                      container3="justify-center h-[13px] pl-[3px]"
+                      container4="text-center justify-center mb-[-3px]"
+                      text="Chicken"
+                     />
+                    <T
+                      className="relative"
+                      container1="pl-[3.5px]"
+                      container2="py-[11px]"
+                      container3="items-center flex-col pb-[11px] pr-[2.8px]"
+                      attr1="/assets/marinate.png"
+                      container4="w-11 h-11"
+                      container5="w-16 h-4 left-[calc(50%_+_-8px_+_-18.64px)]"
+                      text="Marinated"
+                     />
+                    <Rectangle
+                      attr1="/assets/christmas-dinner.png"
+                      container1="-left-3 bottom-[-5px] right-[-15.47px]"
+                      text="Heat & Eat"
+                     />
+                  </div>
+                  <div className="flex flex-wrap items-end justify-center gap-x-[15px] gap-y-[15px] min-[365px]:flex-nowrap" >
+                    <div className="flex flex-col items-center justify-end gap-y-1 rounded-[20px] pb-1 pl-7 pr-8 pt-[17px] [background-image:linear-gradient(180deg,_#fffefd,_#f7a02f)]" >
+                      <img
+                        className="h-[34px] w-10 flex-shrink-0 object-cover object-center"
+                        src="/assets/egg.png"
+                        loading="lazy"
+                       />
+                      <div className="text-center">Eggs</div>
+                    </div>
+                    <T
+                      className="relative"
+                      container1="pl-[9px]"
+                      container2="py-4"
+                      container3="items-start pb-1.5 pr-1.5"
+                      attr1="/assets/spice.png"
+                      container4="h-9 w-[38px]"
+                      container5="w-9 h-[15px] left-[calc(50%_+_-7.5px_+_-6.14px)]"
+                      text="Spices"
+                     />
+                    <Rectangle
+                      attr1="/assets/pet-food.png"
+                      container1="w-14 bottom-[-7px] right-[-12.97px]"
+                      text="Pet Food"
+                     />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="flex items-end px-1 pt-1.5">
+              <div className="font-rem flex items-center justify-center gap-x-6 text-xs leading-[normal] text-white" >
+                <Rectangle1
+                  container1="px-7"
+                  container2="flex-col pr-1"
+                  attr1="/assets/steak.png"
+                  container3="-bottom-1.5 -left-0.5 h-[13px] right-[-4.72px]"
+                  text="Mutton"
+                  container4="w-[38px]"
+                 />
+                <Rectangle1
+                  container1="px-5"
+                  container2="pr-2.5 z-0"
+                  attr1="/assets/fast-delivery.png"
+                  container3="h-4 z-0 w-[68px] bottom-[-7px] right-[-9.47px]"
+                  text="Post Order"
+                  container4="w-12 z-[2]"
+                 />
+              </div>
+            </div>
+            <div className="flex flex-col items-start justify-center gap-y-3 pt-[5px]" >
+              <div className="flex flex-col gap-y-[7px]">
+                <div className="flex items-center px-[5px] [max-width:358px]">
+                  <div className="font-golos-text flex-grow text-[10px] font-medium leading-[normal]" >
+                    NEW ARRIVELS
+                  </div>
+                </div>
+                <div className="z-0 flex h-48 w-[358px] flex-shrink-0 items-start drop-shadow-lg" >
+                  <div className="relative flex h-full w-full flex-shrink-0 overflow-clip pl-[358px] pt-48" >
+                    <div className="absolute bottom-0 left-0 z-[1] flex h-20 w-52 flex-shrink-0 items-center justify-center gap-x-9 rounded-md bg-neutral-200 pb-1 pl-[11px] pr-[6.8px] pt-[53px] text-xs font-bold" >
+                      <div className="font-rounded-mplus-1c-bold absolute left-2 top-[calc(50%_+_-14.78px_+_-4.93px)] flex h-[30px] w-[105px] flex-shrink-0 items-center leading-3" >
+                        <span>
+                          <p>Chicken Curry Cut</p>
+                          <p>(Without Skin)</p>
+                        </span>
+                      </div>
+                      <div className="z-0 flex flex-grow flex-col items-start pl-[0.19px] [max-width:91px]" >
+                        <div className="z-[2] flex items-center">
+                          <div className="font-rem text-[9px] leading-[normal] text-orange-500" >
+                            500 grams
+                          </div>
+                        </div>
+                        <div className="font-mplus-1p-bold z-[1] self-stretch" >
+                          Rs. 159/-
+                        </div>
+                      </div>
+                      <div className="flex flex-col items-center pt-[1.2px]">
+                        <div className="flex items-center justify-end gap-x-0 rounded-[10px] bg-orange-500 py-[2.8px] pl-3 pr-[5.4px]" >
+                          <div className="h-3 flex-grow [max-width:24px]">
+                            <div className="font-rounded-mplus-1c mb-[-0.59px] text-[8px] font-extrabold leading-[10px] text-white" >
+                              ADD
+                            </div>
+                          </div>
+                          <div className="bg-shopping-cart h-3.5 max-h-full w-3.5 max-w-full flex-shrink-0 bg-no-repeat [background-position:0px_0px] [background-size:100%_100%]" />
+                        </div>
+                      </div>
+                    </div>
+                    <img
+                      className="absolute left-0 top-0 z-[2] h-32 w-52 flex-shrink-0 rounded-md object-cover object-center"
+                      src="/assets/_8fresho-chicken-curry-cut-without-skin-antibiotic-residue-free.png"
+                      loading="lazy"
+                     />
+                    <div className="absolute bottom-0 right-[-54px] z-[3] flex h-20 w-52 flex-shrink-0 items-center justify-center gap-x-20 rounded-md bg-neutral-200 pb-1 pl-[11px] pr-[6.8px] pt-[53px]" >
+                      <div className="font-rounded-mplus-1c-bold absolute left-2 top-[calc(50%_+_-14.78px_+_-4.93px)] flex h-[30px] w-[105px] flex-shrink-0 items-center text-xs font-bold leading-[10px]" >
+                        <p>Chicken Thighs</p>
+                      </div>
+                      <div className="z-0 flex flex-col items-start text-center" >
+                        <div className="font-rem z-[2] text-[9px] leading-[normal] text-yellow-600" >
+                          500 grams
+                        </div>
+                        <div className="font-mplus-1p-bold z-[1] text-[10px] font-bold leading-[normal]" >
+                          Rs. 239/-
+                        </div>
+                      </div>
+                      <div className="flex flex-col items-center pt-[1.4px]">
+                        <div className="h-5 w-14 flex-shrink-0 rounded-full bg-orange-500" />
+                      </div>
+                    </div>
+                    <div className="bg-gemini_generated_image_cfvojqcfvojqcfvo absolute right-0 top-0 z-[4] h-32 max-h-full w-36 max-w-full flex-shrink-0 rounded-md bg-no-repeat [background-position:0px_0px] [background-size:137%_100%]" />
+                  </div>
+                </div>
+              </div>
+              <div className="flex flex-col items-start gap-y-[7px]">
+                <div className="flex items-center self-stretch px-1 [max-width:358px]" >
+                  <div className="font-golos-text flex-grow text-[10px] font-medium leading-[normal]" >
+                    BEST SELLERS
+                  </div>
+                </div>
+                <div className="flex items-start drop-shadow-lg">
+                  <div className="flex h-full w-full flex-shrink-0 flex-wrap items-center justify-center gap-x-3 gap-y-3 overflow-clip min-[365px]:flex-nowrap" >
+                    <div className="bg-c-5k-a6hy-k h-28 max-h-full w-52 max-w-full flex-shrink-0 rounded-md bg-no-repeat [background-position:0px_0px] [background-size:100%_109%]" />
+                    <div className="bg-gemini_generated_image_kq-46e-3kq-46e-3kq h-28 max-h-full w-36 max-w-full flex-shrink-0 rounded-md bg-no-repeat [background-position:0px_0px] [background-size:137%_109%]" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="font-rem absolute bottom-0 left-0 right-px z-[2] flex h-[51px] flex-wrap items-center justify-center gap-x-[13px] gap-y-[13px] rounded-[10px] bg-white pb-[3px] pl-5 pr-3.5 text-xs leading-[normal] min-[365px]:flex-nowrap" >
+          <Component
+            container1="w-12 h-12 justify-start"
+            container2="bg-center bg-contain w-9 h-9 rounded-[10px] bg-[url(/assets/booking.png)]"
+            container3="self-stretch h-3 justify-start [max-width:46px]"
+            container4="-mb-1 self-stretch justify-start text-left"
+            text="Home"
+           />
+          <div className="flex h-12 items-center justify-center gap-x-3.5">
+            <TTT
+              container1="items-center self-stretch"
+              container2="flex-grow justify-center"
+              container3="self-stretch pr-[11px]"
+              container4="bg-[url(/assets/shopping-bag.png)]"
+              container5="self-stretch h-3 [max-width:68px]"
+              container6="-mb-1 self-stretch"
+              text="My Orders"
+             />
+            <TTT
+              container1="items-center self-stretch"
+              container2="flex-grow justify-center"
+              container3="self-stretch pr-2"
+              container4="bg-[url(/assets/categorize.png)]"
+              container5="h-3"
+              container6="-mb-1"
+              text="Categories"
+             />
+            <Component
+              container1="self-stretch pl-3.5 justify-start"
+              container2="bg-center bg-contain w-9 h-9 bg-[url(/assets/search.png)]"
+              container3="h-3 justify-start"
+              container4="-mb-1 justify-start text-left"
+              text="Search"
+             />
+            <TTT
+              container1="items-start h-12 mb-[0.5px] pl-[11px]"
+              container2="px-px flex-col justify-start"
+              container3="flex-col pr-[3px]"
+              container4="bg-[url(/assets/discount.png)]"
+              container5="h-3.5"
+              container6="-mb-0.5"
+              text="Offers"
+             />
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+interface IPhone13MiniProps {
+  className?: string;
+}
