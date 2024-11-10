@@ -1,0 +1,107 @@
+import A449c8d312e597cf49a1bfbae74ded from "./assets/A449c8d312e597cf49a1bfbae74ded";
+
+export default function IPhone13Mini({ className = "" }: IPhone13MiniProps) {
+  return (
+    <div className={`flex w-full items-start ${className}`}>
+      <div className="flex h-full w-full flex-shrink-0 flex-col overflow-clip bg-white pt-px" >
+        <div
+          className={`font-golos-text before:bg-_gel relative z-0 flex max-h-full max-w-full flex-grow flex-col justify-center gap-y-2.5 pt-[22px] font-medium leading-[normal] tracking-[0px] before:absolute before:inset-0 before:z-[-1] before:bg-no-repeat before:opacity-50 before:[background-position:-169.55px_0px] before:[background-size:154%_106%] before:[content:''] before:[transform:rotate(90deg)]`}
+        >
+          <div className="flex items-center justify-end pl-6">
+            <div className="flex flex-grow flex-wrap items-end justify-center gap-x-[30px] gap-y-[30px] pb-1 min-[365px]:flex-nowrap" >
+              <div className="flex h-[60px] flex-col items-center">
+                <div className="-mb-1 flex h-16 w-56 flex-shrink-0 flex-col items-start gap-y-4" >
+                  <div className="text-[13px] leading-[normal]">
+                    <span>
+                      {"18:55 "}
+                      <span className="text-neutral-600">pm Monday</span>
+                    </span>
+                  </div>
+                  <div className="self-stretch text-2xl font-bold leading-[normal]" >
+                    Select Category
+                  </div>
+                </div>
+              </div>
+              <A449c8d312e597cf49a1bfbae74ded className="h-24 w-24 flex-shrink-0" />
+            </div>
+          </div>
+          <div className="px-6 pt-[11px] text-[13px] leading-[normal] text-neutral-600" >
+            Juicy Chicken Delight Store
+          </div>
+          <div className="flex items-center justify-center pr-px">
+            <img
+              className="h-28 w-[338px] flex-shrink-0 rounded-[20px] object-cover object-center drop-shadow-lg"
+              src="/assets/chicken-store-banner.png"
+              loading="lazy"
+             />
+          </div>
+          <div className="px-6 pt-[11px] text-[13px] leading-[normal] text-stone-700" >
+            Fried Chicken Store
+          </div>
+          <div className="flex items-center justify-center pr-px">
+            <img
+              className="h-28 w-[338px] flex-shrink-0 rounded-[20px] object-cover object-center drop-shadow-lg"
+              src="/assets/crispy-ncrunchy-fried-chicken-brown-gastronomy-instagram-post.png"
+              loading="lazy"
+             />
+          </div>
+          <div className="flex items-end justify-center pl-px pt-[11px]">
+            <div className="text-center text-[17px] leading-[normal]">
+              <span>
+                "
+                <span className="text-center text-orange-500">
+                  Farm-Fresh
+                </span>
+                , Tender Chicken"
+              </span>
+            </div>
+          </div>
+          <div className="flex items-center justify-center pl-0.5">
+            <div className="text-center text-[17px] leading-[normal]">
+              <span>
+                {'"Healthy Eating, '}
+                <span className="text-center text-orange-500">
+                  Happy Living.
+                </span>
+                "
+              </span>
+            </div>
+          </div>
+          <div className="flex items-center py-8">
+            <div className="relative z-0 flex flex-col items-center pb-12">
+              <div className="absolute bottom-[1.8px] right-[-187px] top-[7px] z-[1] flex w-36 flex-col items-center" >
+                <div
+                  className={`before:bg-low_quality-wttovexn-1l-removebg-preview relative z-0 flex max-h-full max-w-full flex-col items-end pb-40 pl-16 pr-3.5 before:absolute before:inset-0 before:z-[-1] before:bg-no-repeat before:[background-position:0px_0px] before:[background-size:139%_100%] before:[content:''] before:[transform:rotate(35deg)]`}
+                >
+                  <div
+                    className={`before:bg-_freepicdownloader-com_lime-slice-isolated-fruits-transparent-background-normal-removebg-preview relative bottom-0 left-[11px] z-0 h-12 max-h-full w-14 max-w-full flex-shrink-0 before:absolute before:inset-0 before:z-[-1] before:bg-no-repeat before:[background-position:0px_0px] before:[background-size:100%_100%] before:[content:''] before:[transform:rotate(101deg)]`}
+                   />
+                  <div
+                    className={`before:bg-_freepicdownloader-com_lime-slice-isolated-fruits-transparent-background-normal-removebg-preview relative z-0 h-11 max-h-full w-[74px] max-w-full flex-shrink-0 before:absolute before:inset-0 before:z-[-1] before:bg-no-repeat before:[background-position:0px_0px] before:[background-size:100%_100%] before:[content:''] before:[transform:rotate(101deg)]`}
+                   />
+                </div>
+              </div>
+              <div className="absolute bottom-[-31px] right-[-41px] z-[2] flex h-[89px] w-24 flex-shrink-0 flex-col items-center" >
+                <div className="bg-_freepicdownloader-com_eggs-wooden-plate-isolated-transparent-background-normal-removebg-preview h-[89px] max-h-full w-24 max-w-full flex-shrink-0 bg-no-repeat [background-position:0px_0px] [background-size:100%_131%]" />
+              </div>
+              <div className="z-[3] flex items-center justify-center">
+                <div className="bg-dl-beatsnoop-com-final-ao-8aijufye-removebg-preview z-[2] h-44 max-h-full w-40 max-w-full flex-shrink-0 bg-no-repeat [background-position:-34.29px_0px] [background-size:118%_100%]" />
+                <div className="z-[1] flex w-7 flex-shrink-0 flex-col items-end" >
+                  <img
+                    className="h-12 w-10 flex-shrink-0 object-cover object-center"
+                    src="/assets/_freepicdownloader-com_lime-slice-isolated-fruits-transparent-background-normal-removebg-preview-2.png"
+                    loading="lazy"
+                   />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+interface IPhone13MiniProps {
+  className?: string;
+}
