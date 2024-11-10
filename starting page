@@ -1,0 +1,36 @@
+export default function IPhone13Mini({ className = "" }: IPhone13MiniProps) {
+  return (
+    <div className={`flex w-full flex-col bg-white ${className}`}>
+      <div className="bg-green-beige-aesthetic-nature-background-instagram-story flex flex-grow flex-col items-center justify-end bg-cover bg-center pb-24 pl-12 pr-[38px] pt-80 font-medium leading-[normal] tracking-[0px]" >
+        <div className="flex h-[19px] flex-shrink-0 flex-col items-center bg-[floralwhite] pb-px pr-0.5" >
+          <div className="bg-xbox-r mb-[-3px] h-5 w-[22px] flex-shrink-0 bg-contain bg-center bg-no-repeat" />
+        </div>
+        <div className="flex flex-col items-start justify-end self-stretch pr-[9px] pt-56" >
+          <div className="font-golos-text text-right text-[13px] leading-[normal]" >
+            <span>
+              {"“High-Quality "}
+              <span className="text-right text-orange-500">Poultry</span>
+              {", Low-Quality "}
+              <span className="text-right text-orange-500">Worries</span>
+              ”
+            </span>
+          </div>
+        </div>
+        <div className="flex items-end justify-center self-stretch pt-12">
+          <div className="font-afacad pr-[9px] text-center leading-[normal]">
+            A Unit of MaktSon Group
+          </div>
+        </div>
+        <div className="flex items-center justify-center self-stretch">
+          <div className="flex items-center pr-2.5">
+            <div className="bg-whats-app-image-20241103at-101719am h-14 max-h-full w-16 max-w-full flex-shrink-0 rounded-[10px] bg-no-repeat [background-position:-23.62px_-30.74px] [background-size:176%_218%]" />
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+interface IPhone13MiniProps {
+  className?: string;
+}
