@@ -1,0 +1,45 @@
+import Rectangle from "./assets/Rectangle";
+import Rectangle1 from "./assets/Rectangle1";
+import Rectangle2 from "./assets/Rectangle2";
+import Rectangle3 from "./assets/Rectangle3";
+import Vector from "./assets/Vector";
+
+export default function IPhone13Mini({ className = "" }: IPhone13MiniProps) {
+  return (
+    <div className={`flex w-full items-start ${className}`}>
+      <div className="flex h-full w-full flex-shrink-0 flex-col overflow-clip bg-white" >
+        <div
+          className={`font-golos-text before:bg-_gel relative z-0 flex max-h-full max-w-full flex-grow flex-col gap-y-1.5 pb-[434px] pl-[34px] pr-14 pt-52 text-[13px] leading-[normal] tracking-[0px] before:absolute before:inset-0 before:z-[-1] before:bg-no-repeat before:opacity-20 before:[background-position:-158.76px_0px] before:[background-size:154%_106%] before:[content:''] before:[transform:rotate(90deg)]`}
+        >
+          <div className="w-56 text-2xl font-bold leading-[normal]">
+            Verification Code
+          </div>
+          <div className="flex items-end pl-1 pr-20 pt-2">
+            <p>
+              Please enter the verification code that has been sent to +91 XXXX263423
+            </p>
+          </div>
+          <div className="z-[3] flex items-center justify-center gap-x-[9px] pt-0.5" >
+            <Rectangle className="h-14 w-16 flex-shrink-0" />
+            <Rectangle1 className="h-14 w-16 flex-shrink-0" />
+            <Rectangle2 className="h-14 w-16 flex-shrink-0" />
+            <Rectangle3 className="h-14 w-16 flex-shrink-0" />
+          </div>
+          <div className="z-[4] flex items-center justify-center px-1">
+            <div className="flex-grow">
+              <span>
+                {"Haven’t received the code ?  "}
+                <span className="text-orange-500">Resend</span>
+              </span>
+            </div>
+          </div>
+          <Vector className="absolute bottom-[-771.45px] left-[-737px] z-[5] h-[1249px] w-[1541px] flex-shrink-0" />
+        </div>
+      </div>
+    </div>
+  );
+}
+
+interface IPhone13MiniProps {
+  className?: string;
+}
