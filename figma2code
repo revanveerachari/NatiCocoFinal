@@ -1,0 +1,19 @@
+<div className="w-[375px] h-[812px] relative bg-white">
+  <img className="w-[765px] h-[578px] left-[431px] top-[-3px] absolute origin-top-left rotate-90 opacity-60" src="https://via.placeholder.com/765x578" />
+  <div className="left-[26px] top-[585px] absolute text-black text-2xl font-bold font-['Golos Text']">LOGIN / SIGN UP</div>
+  <div className="w-[268px] h-[49px] left-[86px] top-[646px] absolute bg-[#fffafa] rounded-[10px] shadow border-2 border-black/30" />
+  <div className="w-[335px] h-12 left-[22px] top-[719px] absolute bg-[#fb9904] rounded-[50px] shadow border-2 border-white/30" />
+  <div className="w-[35px] h-3 left-[38px] top-[663px] absolute text-black text-xs font-normal font-['Golos Text']">+91</div>
+  <div className="w-[124px] h-[18px] left-[102px] top-[663px] absolute opacity-30 text-black text-[13px] font-normal font-['Golos Text']">Phone number</div>
+  <div className="w-[124px] h-5 left-[28px] top-[626px] absolute text-black text-xs font-normal font-['Golos Text']">Phone</div>
+  <div className="w-[77px] h-[17px] left-[149px] top-[734px] absolute text-[#fbfbfb] text-xs font-normal font-['Krona One']">GET OTP</div>
+  <img className="w-[200px] h-40 left-[231px] top-0 absolute" src="https://via.placeholder.com/200x160" />
+  <img className="w-[181px] h-[167px] left-[-87px] top-[347px] absolute" src="https://via.placeholder.com/181x167" />
+  <img className="w-[197px] h-[209px] left-[-66px] top-[-49px] absolute" src="https://via.placeholder.com/197x209" />
+  <img className="w-14 h-[72px] left-[203px] top-[-3px] absolute" src="https://via.placeholder.com/56x72" />
+  <img className="w-14 h-[72px] left-[3.86px] top-[262.83px] absolute origin-top-left rotate-[-93.95deg]" src="https://via.placeholder.com/56x72" />
+  <img className="w-14 h-[72px] left-[306px] top-[362px] absolute" src="https://via.placeholder.com/56x72" />
+  <img className="w-[192.20px] h-[115.49px] left-[306.53px] top-[386px] absolute origin-top-left rotate-[32.19deg]" src="https://via.placeholder.com/192x115" />
+  <img className="w-[562px] h-[199px] left-[-87px] top-[227px] absolute" src="https://via.placeholder.com/562x199" />
+  <img className="w-[22px] h-[21px] left-[320px] top-[260px] absolute" src="https://via.placeholder.com/22x21" />
+</div>
